@@ -57,7 +57,6 @@
 -system_ext/priv-app/SystemUIGoogle/SystemUIGoogle.apk
 -system_ext/priv-app/TurboAdapter/TurboAdapter.apk
 -system_ext/priv-app/WallpaperPickerGoogleRelease/WallpaperPickerGoogleRelease.apk
--system_ext/priv-app/YadaYada/YadaYada.apk
 -system_ext/priv-app/ims/ims.apk
 -system_ext/priv-app/obdm_stub/obdm_stub.apk
 -system_ext/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk

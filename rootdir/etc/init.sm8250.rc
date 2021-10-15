@@ -97,8 +97,8 @@ on init && property:vendor.skip.init=0
     start vendor.qseecomd
     start keymaster-4-0
 
-    # start QTI keymaster (StrongBox) early
-    start keymaster-sb-4-0
+    # Disable QTI keymaster (StrongBox) early
+    stop keymaster-sb-4-0
 
     # Loading kernel modules in background
     start insmod_sh

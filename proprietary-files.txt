@@ -215,8 +215,8 @@ system_ext/lib64/vendor.qti.hardware.data.qmi@1.0.so
 vendor/app/CneApp/lib/arm64/libvndfwk_detect_jni.qti.so
 -vendor/app/IWlanService/IWlanService.apk
 vendor/bin/cnd
-vendor/etc/cne/profileSlm.xml
-vendor/etc/cne/slm.conf
+vendor/etc/cne/mwqem.conf
+vendor/etc/cne/profileMwqem.xml
 vendor/etc/cne/wqeclient/ATT/ATT_profile1.xml
 vendor/etc/cne/wqeclient/ATT/ATT_profile2.xml
 vendor/etc/cne/wqeclient/ATT/ATT_profile3.xml
@@ -244,7 +244,6 @@ vendor/etc/cne/wqeclient/VZW/VZW_profile3.xml
 vendor/etc/cne/wqeclient/VZW/VZW_profile4.xml
 vendor/etc/cne/wqeclient/VZW/VZW_profile5.xml
 vendor/etc/cne/wqeclient/VZW/VZW_profile6.xml
-vendor/etc/init/cnd.rc
 vendor/lib/libcne.so
 vendor/lib/libcneapiclient.so
 vendor/lib/libcneoplookup.so
@@ -254,6 +253,8 @@ vendor/lib/libwqe.so
 vendor/lib/libxml.so
 vendor/lib/vendor.qti.data.factory@2.0.so
 vendor/lib/vendor.qti.data.factory@2.1.so
+vendor/lib/vendor.qti.data.factory@2.2.so
+vendor/lib/vendor.qti.data.mwqem@1.0.so
 vendor/lib/vendor.qti.data.slm@1.0.so
 vendor/lib/vendor.qti.hardware.data.cne.internal.api@1.0.so
 vendor/lib/vendor.qti.hardware.data.cne.internal.constants@1.0.so
@@ -271,6 +272,8 @@ vendor/lib64/libwqe.so
 vendor/lib64/libxml.so
 vendor/lib64/vendor.qti.data.factory@2.0.so
 vendor/lib64/vendor.qti.data.factory@2.1.so
+vendor/lib64/vendor.qti.data.factory@2.2.so
+vendor/lib64/vendor.qti.data.mwqem@1.0.so
 vendor/lib64/vendor.qti.data.slm@1.0.so
 vendor/lib64/vendor.qti.hardware.data.cne.internal.api@1.0.so
 vendor/lib64/vendor.qti.hardware.data.cne.internal.constants@1.0.so
@@ -1964,7 +1967,6 @@ system_ext/priv-app/ims/lib/arm64/libimsmedia_jni.so
 -system_ext/priv-app/SystemUIGoogle/SystemUIGoogle.apk
 -system_ext/priv-app/TurboAdapter/TurboAdapter.apk
 -system_ext/priv-app/WallpaperPickerGoogleRelease/WallpaperPickerGoogleRelease.apk
--system_ext/priv-app/YadaYada/YadaYada.apk
 -vendor/app/adreno_graphics_driver/adreno_graphics_driver.apk
 -vendor/app/CACertService/CACertService.apk
 -vendor/app/gpu_profiling_vulkan_layer/gpu_profiling_vulkan_layer.apk
@@ -2036,6 +2038,7 @@ vendor/etc/init/android.hardware.power-service.pixel-libperfmgr.rc
 vendor/etc/init/android.hardware.power.stats@1.0-service.gourami.rc
 vendor/etc/init/android.hardware.wifi.supplicant-service.rc
 vendor/etc/init/boringssl_self_test.rc
+vendor/etc/init/cnd-generic.rc
 vendor/etc/init/cnss-daemon.rc
 vendor/etc/init/dataadpl.rc
 vendor/etc/init/dataqti.rc
@@ -2080,6 +2083,7 @@ vendor/etc/pwr/VideoPowerOptFeature.xml
 vendor/etc/ssg/ta_config.json
 vendor/etc/ssg/tz_whitelist.json
 vendor/etc/sysconfig/component-overrides.xml
+vendor/etc/task_profiles.json
 vendor/etc/video_system_specs.json
 vendor/lib/android.frameworks.sensorservice@1.0.so
 vendor/lib/android.frameworks.stats-V1-ndk_platform.so
@@ -2281,6 +2285,7 @@ vendor/lib/vendor.qti.hardware.display.mapper@4.0.so
 vendor/lib/vendor.qti.hardware.display.mapperextensions@1.0.so
 vendor/lib/vendor.qti.hardware.display.mapperextensions@1.1.so
 vendor/lib/vendor.qti.hardware.dsp@1.0.so
+vendor/lib/vendor.qti.hardware.mwqemadapter@1.0.so
 vendor/lib/vendor.qti.hardware.qccsyshal@1.0.so
 vendor/lib/vendor.qti.hardware.qccvndhal@1.0-halimpl.so
 vendor/lib/vendor.qti.hardware.qccvndhal@1.0.so
@@ -2505,6 +2510,7 @@ vendor/lib64/vendor.qti.hardware.display.mapper@4.0.so
 vendor/lib64/vendor.qti.hardware.display.mapperextensions@1.0.so
 vendor/lib64/vendor.qti.hardware.display.mapperextensions@1.1.so
 vendor/lib64/vendor.qti.hardware.dsp@1.0.so
+vendor/lib64/vendor.qti.hardware.mwqemadapter@1.0.so
 vendor/lib64/vendor.qti.hardware.qccsyshal@1.0.so
 vendor/lib64/vendor.qti.hardware.qccvndhal@1.0-halimpl.so
 vendor/lib64/vendor.qti.hardware.qccvndhal@1.0.so
