@@ -608,7 +608,7 @@ service pd_mapper /vendor/bin/pd-mapper
 service cnss-daemon /vendor/bin/cnss-daemon -n -l
    class late_start
    user system
-   group system inet wifi
+   group system inet net_admin wifi
 
 service loc_launcher /vendor/bin/loc_launcher
     class late_start

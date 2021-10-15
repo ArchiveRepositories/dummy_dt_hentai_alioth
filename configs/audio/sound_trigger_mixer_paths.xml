@@ -86,10 +86,10 @@
     <ctl name="ADC4_MIXER Switch" value="1" />
     <ctl name="ADC4 MUX" value="INP5" />
     <ctl name="LPI Enable" value="0" />
-    <ctl name="ADC1 Volume" value="8" />
-    <ctl name="ADC2 Volume" value="8" />
-    <ctl name="ADC3 Volume" value="8" />
-    <ctl name="ADC4 Volume" value="8" />
+    <ctl name="ADC1 Volume" value="12" />
+    <ctl name="ADC2 Volume" value="12" />
+    <ctl name="ADC3 Volume" value="12" />
+    <ctl name="ADC4 Volume" value="12" />
 
     <path name="listen-voice-wakeup-1">
         <ctl name="LSM1 Mixer VA_CDC_DMA_TX_0" value="1" />
@@ -258,8 +258,6 @@
         <ctl name="VA DEC1 MUX" value="SWR_MIC" />
         <ctl name="VA SMIC MUX1" value="ADC0" />
         <ctl name="ADC1_MIXER Switch" value="1" />
-        <ctl name="VA_DEC0 Volume" value="90" />
-        <ctl name="VA_DEC3 Volume" value="90" />
     </path>
 
     <path name="listen-ape-handset-tmic">

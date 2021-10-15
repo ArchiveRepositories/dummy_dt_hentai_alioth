@@ -801,7 +801,8 @@
 
     <path name="ultrasound-proximity">
         <ctl name="Mi_Ultrasound Enable" value="On" />
-        <ctl name="Mi_Ultrasound Mode" value="833"/>
+        <ctl name="Mi_Ultrasound Mode" value="725"/>
+        <ctl name="Mi_Ultrasound Custom Setting 1" value="1" />
     </path>
 
     <path name="ultrasound-proximity-output">
@@ -819,7 +820,6 @@
     <path name="ultrasound-proximity-output speaker-and-headphones"></path>
 
     <path name="ultrasound-output">
-        <ctl name="RCV ASPRX2 Slot Position" value="4" />
         <ctl name="RCV Main AMP Enable Switch" value="1" />
     </path>
 
